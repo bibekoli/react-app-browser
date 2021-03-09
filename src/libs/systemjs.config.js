@@ -20,9 +20,10 @@ SystemJS.config({
   map: {
     'plugin-babel': 'plugin-babel.js',
     'systemjs-babel-build': 'systemjs-babel-browser.js',
-    'react': 'react.production.min.js',
-    'react-dom': 'react-dom.production.min.js',
-    'css': 'css.js'
+    'react': 'react.js',
+    'react-dom': 'react-dom.js',
+    'css': 'css.js',
+    'image': 'image.js'
   },
   transpiler: 'plugin-babel'
 });
