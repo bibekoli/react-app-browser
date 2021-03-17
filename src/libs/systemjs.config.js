@@ -22,8 +22,8 @@ SystemJS.config({
     'systemjs-babel-build': 'systemjs-babel-browser.js',
     'react': 'react.js',
     'react-dom': 'react-dom.js',
-    'css': 'css.js',
-    'image': 'image.js'
+    'css': 'css-loader.js',
+    'image': 'image-loader.js'
   },
   transpiler: 'plugin-babel'
 });
